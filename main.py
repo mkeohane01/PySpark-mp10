@@ -3,7 +3,7 @@ from pyspark.sql import SparkSession
 def log_stuff(stuff, file = "outputs.md"):
   # log stuff to a file
   with open(file, "a") as f:
-    f.write(stuff + "\n")
+    f.write(stuff + "\n\n")
 
 def load_data(spark, csv="data/baseball_data.csv"):
   # load the csv data from the url and return a dataframe

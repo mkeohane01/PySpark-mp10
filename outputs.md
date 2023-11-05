@@ -1,6 +1,9 @@
 Spark session created.
+
 Data loaded.
+
 Query executed: SELECT Name FROM baseball_table WHERE Team = 'WAS' and PosCategory = 'Pitcher' LIMIT 10
+
 |    | Name           |
 |---:|:---------------|
 |  0 | Billy_Traber   |
@@ -13,7 +16,9 @@ Query executed: SELECT Name FROM baseball_table WHERE Team = 'WAS' and PosCatego
 |  7 | Chris_Schroder |
 |  8 | Brett_Campbell |
 |  9 | Beltran_Perez  |
+
 Data transformed: Grouped by team and position and counted the number of players
+
 |     | Team   | PosCategory   |   count |
 |----:|:-------|:--------------|--------:|
 |   0 | ANA    | Catcher       |       3 |
@@ -136,4 +141,6 @@ Data transformed: Grouped by team and position and counted the number of players
 | 117 | WAS    | Infielder     |       7 |
 | 118 | WAS    | Outfielder    |       7 |
 | 119 | WAS    | Pitcher       |      20 |
+
 Spark session stopped.
+

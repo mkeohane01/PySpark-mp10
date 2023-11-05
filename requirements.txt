@@ -1,5 +1,5 @@
 black
 pytest
 ruff
-pyspark.sql
+pyspark
 pandas
